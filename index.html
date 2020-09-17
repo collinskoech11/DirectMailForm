@@ -2,16 +2,22 @@
 <html>
 <body>
 
-<h2>Send e-mail to Sample address:</h2>
-
-<form action="mailto:kenyadevco@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-
+    <form
+    action="https://formspree.io/maylwaol"
+    method="POST"
+  >
+    <label>
+      Your email:
+      <input type="text" name="_replyto">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+  
+    <!-- your other form fields go here -->
+  
+    <button type="submit">Send</button>
+  </form>
 </body>
 </html>
